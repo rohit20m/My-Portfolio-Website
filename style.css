@@ -127,6 +127,14 @@ nav ul li a:hover {
     color: rgb(119, 31, 202);
 }
 
+
+/*
+.aboutMe {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+} */
+
 .secondSection {
     max-width: 80vw;
     margin: auto;
@@ -177,7 +185,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background: linear-gradient(to right, blue, red);
+    /* background: linear-gradient(to right, blue, red); */
     height: 232px;
     /* position: relative; */
 }
@@ -186,7 +194,7 @@ footer {
     width: 100px;
     height: 100px;
     border-radius: 50px;
-    background: linear-gradient(to right, red, pink);
+    /* background: linear-gradient(to right, red, pink); */
     /* position: absolute;
     bottom: 75%; */
 }
@@ -198,27 +206,81 @@ footer {
 }
 
 .follow-us {
-    width: 100px;
+    width: 140px;
     height: 100px;
     margin-top: 22px;
-    /* background: white; */
 }
 
 .follow-us-details {
+    width: 180px;
+    height: 100px;
     padding-top: 22px;
+}
+
+.follow-us-details a {
+    color: white;
+    text-decoration: none;
 }
 
 .link-details {
-    list-style: none;
-    padding-top: 22px;
+    width: 180px;
+    height: 100px;
 }
 
 .aboutMe {
-    width: 100%;
+    width: 90%;
     height: 70vh;
     text-align: center;
-    margin-top: 40px;
-    /* background-image: url('/rohit.jpg');
-    background-size: cover;
-    background-repeat: no-repeat; */
+    margin: 40px 75px 40px 75px;
+}
+
+.aboutMe h1 {
+    margin-bottom: 20px;
+    margin-top: -35px;
+}
+
+.intro {
+    width: 40%;
+    text-align: left;
+    float: left;
+}
+
+.profilePic {
+    width: 40%;
+    float: right;
+    margin-right: -21px;
+}
+
+.contactMe {
+    padding: 12px;
+    background: goldenrod;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.contactMe:hover {
+    padding: 12px;
+    background: white;
+    color: goldenrod;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 14px;
+}
+
+.circle-image {
+    width: 500px;
+    /* Adjust the width as needed */
+    height: 500px;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+    /* Makes the image circular */
+    object-fit: cover;
+    /* Keeps the image proportions and hides any overflow */
 }
