@@ -284,3 +284,7 @@ footer {
     object-fit: cover;
     /* Keeps the image proportions and hides any overflow */
 }
+
+footer {
+    background-color: rgb(18, 18, 62);
+}
