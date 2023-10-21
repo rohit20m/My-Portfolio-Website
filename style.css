@@ -275,9 +275,9 @@ footer {
 }
 
 .circle-image {
-    width: 500px;
+    width: 350px;
     /* Adjust the width as needed */
-    height: 500px;
+    height: 350px;
     /* Adjust the height as needed */
     border-radius: 50%;
     /* Makes the image circular */
